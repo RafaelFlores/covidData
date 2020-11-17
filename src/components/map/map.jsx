@@ -12,9 +12,9 @@ export function Map() {
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapRef.current,
-      style: 'mapbox://styles/mapbox/streets-v11',
-      center: [5, 34],
-      zoom: 2
+      style: 'mapbox://styles/rafloresgo/ckhmepwa801271apawrohme9r',
+      center: [0, 0],
+      zoom: 3.5
     });
   }, []);
 

@@ -26,8 +26,8 @@ const useStyles = makeStyles(() => createStyles({
       width: '100%'
     },
     '.mapContainer': {
-      height: '100%',
-      width: '100%'
+      height: '440px',
+      width: '800px'
     }
   }
 }));
