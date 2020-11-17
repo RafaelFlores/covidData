@@ -26,8 +26,8 @@ import NavItem from './NavItem';
 
 const user = {
   avatar: '/static/images/avatars/avatar_6.png',
-  jobTitle: 'Senior Developer',
-  name: 'Katarina Smith'
+  jobTitle: 'Junior Developer',
+  name: 'Rafael Flores'
 };
 
 const items = [
@@ -151,27 +151,20 @@ const NavBar = ({ onMobileClose, openMobile }) => {
           gutterBottom
           variant="h4"
         >
-          Need more?
+          Data From
         </Typography>
         <Typography
           align="center"
           variant="body2"
         >
-          Upgrade to PRO version and access 20 more screens
+          National Covid Service
         </Typography>
         <Box
           display="flex"
           justifyContent="center"
           mt={2}
         >
-          <Button
-            color="primary"
-            component="a"
-            href="https://react-material-kit.devias.io"
-            variant="contained"
-          >
-            See PRO version
-          </Button>
+
         </Box>
       </Box>
     </Box>
