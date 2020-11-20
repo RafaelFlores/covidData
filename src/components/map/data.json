@@ -1,4 +1,5 @@
 [
+    
     {
       "state": "AK",
       "positive": 20832,
@@ -7,7 +8,7 @@
       "death": 92,
       "fips": 2,
       "total": 828140,
-      "coordinates": "64.0685, 152.2782"
+      "coordinates": [-152.2782, 64.0685]
     },
     {
       "state": "AL",
@@ -17,7 +18,7 @@
       "death": 3120,
       "fips": 1,
       "total": 1437719,
-      "coordinates": "32.7794, 86.8287"
+      "coordinates": [-86.791130, 32.806671]
     },
     {
       "state": "AR",
@@ -27,7 +28,7 @@
       "death": 2112,
       "fips": 5,
       "total": 1456243,
-      "coordinates": "34.2744, 111.6602"
+      "coordinates": [-111.6602, 34.2744 ]
     },
     {
       "state": "AZ",
@@ -37,7 +38,7 @@
       "death": 6192,
       "fips": 4,
       "total": 1905430,
-      "coordinates": "34.8938, 92.4426"
+      "coordinates": [-92.4426, 34.8938]
     },
     {
       "state": "CA",
@@ -47,7 +48,7 @@
       "death": 18001,
       "fips": 6,
       "total": 20094641,
-      "coordinates": "37.1841, 119.4696"
+      "coordinates": [-119.4696, 37.1841]
     },
     {
       "state": "CO",
@@ -57,7 +58,7 @@
       "death": 2179,
       "fips": 8,
       "total": 1359195,
-      "coordinates": "38.9972, 105.5478"
+      "coordinates": [-105.5478, 38.9972]
     },
     {
       "state": "CT",
@@ -67,7 +68,7 @@
       "death": 4707,
       "fips": 9,
       "total": 2602262,
-      "coordinates": "41.6219, 72.7273"
+      "coordinates": [41.6219, -72.7273]
     },
     {
       "state": "DC",
@@ -77,7 +78,7 @@
       "death": 657,
       "fips": 11,
       "total": 561833,
-      "coordinates": "38.9101, 77.0147"
+      "coordinates": [-77.0147, 38.9101]
     },
     {
       "state": "DE",
@@ -87,7 +88,7 @@
       "death": 722,
       "fips": 10,
       "total": 369131,
-      "coordinates": "38.9896, 75.505"
+      "coordinates": [-75.505, 38.9896]
     },
     {
       "state": "FL",
@@ -97,7 +98,7 @@
       "death": 17460,
       "fips": 12,
       "total": 6439198,
-      "coordinates": "28.6305, 82.4497"
+      "coordinates": [-82.4497, 28.6305]
     },
     {
       "state": "GA",
@@ -107,7 +108,7 @@
       "death": 8730,
       "fips": 13,
       "total": 3772524,
-      "coordinates": "32.6415, 83.4426"
+      "coordinates": [-83.4426, 32.6415]
     },
     {
       "state": "HI",
@@ -117,7 +118,7 @@
       "death": 221,
       "fips": 15,
       "total": 311395,
-      "coordinates": "20.2927, 156.3737"
+      "coordinates": [-156.3737, 20.2927]
     },
     {
       "state": "IA",
@@ -127,7 +128,7 @@
       "death": 1874,
       "fips": 19,
       "total": 950191,
-      "coordinates": "42.0751, 93.496"
+      "coordinates": [-93.496, 42.0751]
     },
     {
       "state": "ID",
@@ -137,7 +138,7 @@
       "death": 698,
       "fips": 16,
       "total": 420811,
-      "coordinates": "44.3509, 114.613"
+      "coordinates": [-114.613, 44.3509]
     },
     {
       "state": "IL",
@@ -147,7 +148,7 @@
       "death": 10645,
       "fips": 17,
       "total": 8571019,
-      "coordinates": "40.0417, 89.1965"
+      "coordinates": [-89.1965, 40.0417]
     },
     {
       "state": "IN",
@@ -157,7 +158,7 @@
       "death": 4731,
       "fips": 18,
       "total": 1837630,
-      "coordinates": "39.8942, 86.2816"
+      "coordinates": [-86.2816, 39.8942]
     },
     {
       "state": "KS",
@@ -167,7 +168,7 @@
       "death": 1181,
       "fips": 20,
       "total": 689982,
-      "coordinates": "38.4937, 98.3804"
+      "coordinates": [-98.3804, 38.4937]
     },
     {
       "state": "KY",
@@ -177,7 +178,7 @@
       "death": 1590,
       "fips": 21,
       "total": 2126356,
-      "coordinates": "37.5347, 85.3021"
+      "coordinates": [-85.3021, 37.5347]
     },
     {
       "state": "LA",
@@ -187,7 +188,7 @@
       "death": 6058,
       "fips": 22,
       "total": 2924923,
-      "coordinates": "31.0689, 91.9968"
+      "coordinates": [-91.9968, 31.0689]
     },
     {
       "state": "MA",
@@ -197,7 +198,7 @@
       "death": 10184,
       "fips": 25,
       "total": 2932097,
-      "coordinates": "42.2596, 71.8083"
+      "coordinates": [-71.8083, 42.2596]
     },
     {
       "state": "IN",
@@ -207,7 +208,7 @@
       "death": 4731,
       "fips": 18,
       "total": 1837630,
-      "coordinates": "39.8942, 86.2816"
+      "coordinates": [-86.2816, 39.8942]
     },
     {
       "state": "KS",
@@ -217,7 +218,7 @@
       "death": 1181,
       "fips": 20,
       "total": 689982,
-      "coordinates": "38.4937, 98.3804"
+      "coordinates": [-98.3804, 38.4937]
     },
     {
       "state": "KY",
@@ -227,7 +228,7 @@
       "death": 1590,
       "fips": 21,
       "total": 2126356,
-      "coordinates": "37.5347, 85.3021"
+      "coordinates": [-85.3021, 37.5347]
     },
     {
       "state": "LA",
@@ -237,7 +238,7 @@
       "death": 6058,
       "fips": 22,
       "total": 2924923,
-      "coordinates": "31.0689, 91.9968"
+      "coordinates": [-91.9968, 31.0689]
     },
     {
       "state": "MA",
@@ -247,7 +248,7 @@
       "death": 10184,
       "fips": 25,
       "total": 2932097,
-      "coordinates": "42.2596, 71.8083"
+      "coordinates": [-71.8083, 42.2596]
     },
     {
       "state": "MD",
@@ -257,7 +258,7 @@
       "death": 4233,
       "fips": 24,
       "total": 2047847,
-      "coordinates": "39.0550, 76.7909"
+      "coordinates": [ -76.7909, 39.0550]
     },
     {
       "state": "ME",
@@ -267,7 +268,7 @@
       "death": 156,
       "fips": 23,
       "total": 704431,
-      "coordinates": "45.3695, 69.2428"
+      "coordinates": [-69.2428, 45.3695]
     },
     {
       "state": "MI",
@@ -277,7 +278,7 @@
       "death": 8094,
       "fips": 26,
       "total": 5427625,
-      "coordinates": "44.3467, 85.4102"
+      "coordinates": [-85.4102, 44.3467]
     },
     {
       "state": "MN",
@@ -287,7 +288,7 @@
       "death": 2698,
       "fips": 27,
       "total": 2033885,
-      "coordinates": "46.2807, 94.3053"
+      "coordinates": [-94.3053, 46.2807]
     },
     {
       "state": "MO",
@@ -297,7 +298,7 @@
       "death": 3299,
       "fips": 29,
       "total": 1599170,
-      "coordinates": "38.3566, 92.458"
+      "coordinates": [-92.458, 38.3566]
     },
     {
       "state": "MS",
@@ -307,7 +308,7 @@
       "death": 3480,
       "fips": 28,
       "total": 1002001,
-      "coordinates": "32.7364, 89.6678"
+      "coordinates": [-89.6678, 32.7364]
     },
     {
       "state": "MT",
@@ -317,7 +318,7 @@
       "death": 462,
       "fips": 30,
       "total": 544566,
-      "coordinates": "47.0527, 109.6333"
+      "coordinates": [-109.6333, 47.0527]
     },
     {
       "state": "NC",
@@ -327,7 +328,7 @@
       "death": 4660,
       "fips": 37,
       "total": 4429912,
-      "coordinates": "35.5557, 79.3877"
+      "coordinates": [-79.3877, 35.5557]
     },
     {
       "state": "ND",
@@ -337,7 +338,7 @@
       "death": 497,
       "fips": 38,
       "total": 311882,
-      "coordinates": "47.4501, 100.4659"
+      "coordinates": [-100.4659, 47.4501]
     },
     {
       "state": "NE",
@@ -347,7 +348,7 @@
       "death": 710,
       "fips": 31,
       "total": 633716,
-      "coordinates": "41.5378, 99.7951"
+      "coordinates": [-99.7951, 41.5378]
     },
     {
       "state": "NH",
@@ -357,7 +358,7 @@
       "death": 489,
       "fips": 33,
       "total": 368085,
-      "coordinates": "43.6805, 71.5811"
+      "coordinates": [-71.5811, 43.6805]
     },
     {
       "state": "NJ",
@@ -367,7 +368,7 @@
       "death": 16461,
       "fips": 34,
       "total": 5041064,
-      "coordinates": "40.1907, 74.6728"
+      "coordinates": [74.6728, 40.1907]
     },
     {
       "state": "NM",
@@ -377,7 +378,7 @@
       "death": 1130,
       "fips": 35,
       "total": 1269523,
-      "coordinates": "34.4071, 106.1126"
+      "coordinates": [-106.1126, 34.4071]
     },
     {
       "state": "NV",
@@ -387,7 +388,7 @@
       "death": 1859,
       "fips": 32,
       "total": 854534,
-      "coordinates": "39.3289, 116.6312"
+      "coordinates": [-116.6312, 39.3289]
     },
     {
       "state": "NY",
@@ -397,7 +398,7 @@
       "death": 26005,
       "fips": 36,
       "total": 15904266,
-      "coordinates": "42.9538, 75.5268"
+      "coordinates": [-75.5268, 42.9538]
     },
     {
       "state": "OH",
@@ -407,7 +408,7 @@
       "death": 5547,
       "fips": 39,
       "total": 4964229,
-      "coordinates": "40.2862, 82.7937"
+      "coordinates": [-82.7937, 40.2862]
     },
     {
       "state": "OK",
@@ -417,7 +418,7 @@
       "death": 1451,
       "fips": 40,
       "total": 1736274,
-      "coordinates": "35.5889, 97.4943"
+      "coordinates": [-97.4943, 35.5889]
     },
     {
       "state": "OR",
@@ -427,7 +428,7 @@
       "death": 737,
       "fips": 41,
       "total": 921216,
-      "coordinates": "43.9336, 120.5583"
+      "coordinates": [-120.5583, 43.9336]
     },
     {
       "state": "PA",
@@ -437,7 +438,7 @@
       "death": 9086,
       "fips": 42,
       "total": 2709442,
-      "coordinates": "40.8781, 77.7996"
+      "coordinates": [-77.7996, 40.8781]
     },
     {
       "state": "RI",
@@ -447,7 +448,7 @@
       "death": 1237,
       "fips": 44,
       "total": 467877,
-      "coordinates": "41.6762, 71.5562"
+      "coordinates": [-71.5562, 41.6762]
     },
     {
       "state": "SC",
@@ -457,7 +458,7 @@
       "death": 4062,
       "fips": 45,
       "total": 1988512,
-      "coordinates": "33.9169, 80.8964"
+      "coordinates": [-80.8964, 33.9169]
     },
     {
       "state": "SD",
@@ -467,7 +468,7 @@
       "death": 540,
       "fips": 46,
       "total": 280699,
-      "coordinates": "44.4443, 100.2263"
+      "coordinates": [-100.2263, 44.4443]
     },
     {
       "state": "TN",
@@ -477,7 +478,7 @@
       "death": 3672,
       "fips": 47,
       "total": 3943804,
-      "coordinates": "35.8580, 86.3505"
+      "coordinates": [-86.3505, 35.8580]
     },
     {
       "state": "TX",
@@ -487,7 +488,7 @@
       "death": 18863,
       "fips": 48,
       "total": 8901839,
-      "coordinates": "31.4757, 99.3312"
+      "coordinates": [-99.3312, 31.4757]
     },
     {
       "state": "UT",
@@ -497,7 +498,7 @@
       "death": 672,
       "fips": 49,
       "total": 1135628,
-      "coordinates": "39.3055, 111.6703"
+      "coordinates": [-111.6703, 39.3055]
     },
     {
       "state": "VA",
@@ -507,7 +508,7 @@
       "death": 3726,
       "fips": 51,
       "total": 2837428,
-      "coordinates": "37.5215, 78.8537"
+      "coordinates": [-78.8537, 37.5215]
     },
     {
       "state": "VT",
@@ -517,7 +518,7 @@
       "death": 59,
       "fips": 50,
       "total": 195455,
-      "coordinates": "44.0687, 72.6658"
+      "coordinates": [-72.6658, 44.0687]
     },
     {
       "state": "WA",
@@ -527,7 +528,7 @@
       "death": 2460,
       "fips": 53,
       "total": 2627515,
-      "coordinates": "47.3826, 120.4472"
+      "coordinates": [-120.4472, 47.3826]
     },
     {
       "state": "WI",
@@ -537,7 +538,7 @@
       "death": 2482,
       "fips": 55,
       "total": 2233471,
-      "coordinates": "44.6243, 89.9941"
+      "coordinates": [-89.9941, 44.6243]
     },
     {
       "state": "WV",
@@ -547,7 +548,7 @@
       "death": 546,
       "fips": 54,
       "total": 864043,
-      "coordinates": "38.6409, 80.6227"
+      "coordinates": [-80.6227, 38.6409]
     },
     {
       "state": "WY",
@@ -557,6 +558,6 @@
       "death": 127,
       "fips": 56,
       "total": 146390,
-      "coordinates": "42.9957, 107.5512"
+      "coordinates": [-107.5512, 42.9957]
     }
   ]

@@ -1,0 +1,33 @@
+[
+    
+    {
+      "state": "AK",
+      "positive": 20832,
+      "negative": 807308,
+      "recovered": 7161,
+      "death": 92,
+      "fips": 2,
+      "total": 828140,
+      "coordinates": [64.0685, 152.2782]
+    },
+    {
+      "state": "AL",
+      "positive": 206567,
+      "negative": 1231152,
+      "recovered": 84471,
+      "death": 3120,
+      "fips": 1,
+      "total": 1437719,
+      "coordinates": [32.7794, 86.8287]
+    },
+    {
+      "state": "AR",
+      "positive": 124235,
+      "negative": 1332008,
+      "recovered": 109235,
+      "death": 2112,
+      "fips": 5,
+      "total": 1456243,
+      "coordinates": [34.2744, 111.6602]
+    }   
+]
