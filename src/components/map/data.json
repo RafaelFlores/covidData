@@ -68,7 +68,7 @@
       "death": 4707,
       "fips": 9,
       "total": 2602262,
-      "coordinates": [41.6219, -72.7273]
+      "coordinates": [-72.7273, 41.6219]
     },
     {
       "state": "DC",
@@ -368,7 +368,7 @@
       "death": 16461,
       "fips": 34,
       "total": 5041064,
-      "coordinates": [74.6728, 40.1907]
+      "coordinates": [-74.6728, 40.1907]
     },
     {
       "state": "NM",
