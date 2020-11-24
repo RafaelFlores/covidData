@@ -13,9 +13,7 @@ import {
   makeStyles,
   useTheme
 } from '@material-ui/core';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import PhoneIcon from '@material-ui/icons/Phone';
-import TabletIcon from '@material-ui/icons/Tablet';
+import People from '@material-ui/icons/People';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -30,18 +28,20 @@ const TrafficByDevice = ({ className, ...rest }) => {
   const data = {
     datasets: [
       {
-        data: [63, 15, 22],
+        data: [2, 37, 37, 13, 11],
         backgroundColor: [
           colors.indigo[500],
           colors.red[600],
-          colors.orange[600]
+          colors.orange[600],
+          colors.amber[600],
+          colors.blue[600]
         ],
         borderWidth: 8,
         borderColor: colors.common.white,
         hoverBorderColor: colors.common.white
       }
     ],
-    labels: ['Desktop', 'Tablet', 'Mobile']
+    labels: ['<18', '18-44', '45-64', '65-74', '>75']
   };
 
   const options = {
@@ -68,21 +68,32 @@ const TrafficByDevice = ({ className, ...rest }) => {
 
   const devices = [
     {
-      title: 'Desktop',
-      value: 63,
-      icon: LaptopMacIcon,
+      title: '<18',
+      value: 2,
+      icon: People,
       color: colors.indigo[500]
     },
     {
-      title: 'Tablet',
-      value: 15,
-      icon: TabletIcon,
+      title: '18-44',
+      value: 37,
+      icon: People,
       color: colors.red[600]
     },
     {
-      title: 'Mobile',
-      value: 23,
-      icon: PhoneIcon,
+      title: '45-64',
+      value: 37,
+      icon: People,
+      color: colors.orange[600]
+    },
+    {
+      title: '65-74',
+      value: 13,
+      icon: People,
+      color: colors.orange[600]
+    },    {
+      title: '>75',
+      value: 11,
+      icon: People,
       color: colors.orange[600]
     }
   ];
@@ -92,7 +103,7 @@ const TrafficByDevice = ({ className, ...rest }) => {
       className={clsx(classes.root, className)}
       {...rest}
     >
-      <CardHeader title="Traffic by Device" />
+      <CardHeader title="Deadths by age group" />
       <Divider />
       <CardContent>
         <Box

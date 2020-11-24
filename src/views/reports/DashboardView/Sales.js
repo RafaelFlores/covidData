@@ -28,16 +28,16 @@ const Sales = ({ className, ...rest }) => {
     datasets: [
       {
         backgroundColor: colors.indigo[500],
-        data: [18, 5, 19, 27, 29, 19, 20],
-        label: 'This year'
+        data: [51.1, 21.1, 21.1, 3.7, 0.9],
+        label: 'Share of Deaths'
       },
       {
-        backgroundColor: colors.grey[200],
-        data: [11, 20, 12, 29, 30, 25, 13],
-        label: 'Last year'
+        backgroundColor: colors.grey[700],
+        data: [61.1, 12.3, 17.8, 5.4, 0.7],
+        label: 'Share of Population'
       }
     ],
-    labels: ['1 Aug', '2 Aug', '3 Aug', '4 Aug', '5 Aug', '6 Aug']
+    labels: ['White', 'Black', 'Hispanic', 'Asian', 'Native American',]
   };
 
   const options = {
@@ -107,10 +107,10 @@ const Sales = ({ className, ...rest }) => {
             size="small"
             variant="text"
           >
-            Last 7 days
+            Up to October 2020
           </Button>
         )}
-        title="Latest Sales"
+        title="Dead share by ethnicity"
       />
       <Divider />
       <CardContent>

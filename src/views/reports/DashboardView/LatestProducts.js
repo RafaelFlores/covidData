@@ -22,32 +22,37 @@ import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 const data = [
   {
     id: uuid(),
-    name: 'Dropbox',
-    imageUrl: '/static/images/products/product_1.png',
+    name: 'Covid Graph',
+    link: 'https://covidgraph.com/',
+    imageUrl: '/static/images/products/news_1.png',
     updatedAt: moment().subtract(2, 'hours')
   },
   {
     id: uuid(),
-    name: 'Medium Corporation',
-    imageUrl: '/static/images/products/product_2.png',
+    name: 'Data USA',
+    link: 'https://datausa.io/coronavirus',
+    imageUrl: '/static/images/products/news_2.png',
     updatedAt: moment().subtract(2, 'hours')
   },
   {
     id: uuid(),
-    name: 'Slack',
-    imageUrl: '/static/images/products/product_3.png',
+    name: 'Bloomberg',
+    link: 'https://www.bloomberg.com/graphics/2020-united-states-coronavirus-outbreak/',
+    imageUrl: '/static/images/products/news_3.png',
     updatedAt: moment().subtract(3, 'hours')
   },
   {
     id: uuid(),
-    name: 'Lyft',
-    imageUrl: '/static/images/products/product_4.png',
+    name: 'NPR',
+    link: 'https://www.npr.org/sections/health-shots/2020/09/01/816707182/map-tracking-the-spread-of-the-coronavirus-in-the-u-s',
+    imageUrl: '/static/images/products/news_4.png',
     updatedAt: moment().subtract(5, 'hours')
   },
   {
     id: uuid(),
-    name: 'GitHub',
-    imageUrl: '/static/images/products/product_5.png',
+    name: 'Covid Graphics',
+    link: 'https://covid.graphics/',
+    imageUrl: '/static/images/products/news_5.png',
     updatedAt: moment().subtract(9, 'hours')
   }
 ];
@@ -73,7 +78,7 @@ const LatestProducts = ({ className, ...rest }) => {
     >
       <CardHeader
         subtitle={`${products.length} in total`}
-        title="Latest Products"
+        title="Latest News"
       />
       <Divider />
       <List>
@@ -90,7 +95,7 @@ const LatestProducts = ({ className, ...rest }) => {
               />
             </ListItemAvatar>
             <ListItemText
-              primary={product.name}
+              primary={<a href={product.link}> {product.name} </a> }
               secondary={`Updated ${product.updatedAt.fromNow()}`}
             />
             <IconButton

@@ -1,6 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
+import calculations from './Calculations'
+import commaNumber from 'comma-number';
 import {
   Avatar,
   Box,
@@ -13,6 +15,8 @@ import {
   colors
 } from '@material-ui/core';
 import InsertChartIcon from '@material-ui/icons/InsertChartOutlined';
+
+const summary = calculations();
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -45,13 +49,13 @@ const TasksProgress = ({ className, ...rest }) => {
               gutterBottom
               variant="h6"
             >
-              NEGATIVE CASES
+              POSITIVE CASES
             </Typography>
             <Typography
               color="textPrimary"
               variant="h3"
             >
-              75.5%
+              {commaNumber(summary.positive)}
             </Typography>
           </Grid>
           <Grid item>

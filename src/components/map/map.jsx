@@ -9,11 +9,10 @@ console.log(covidData);
 
 export const jsToGeoJson = (list) => ({
   type: 'FeatureCollection',
-  features: list.map((d, idx) => ({
+  features: list.map((d) => ({
     type: 'Feature',
     geometry: {
       type: 'Point',
-      description: 'Somewhere',
       coordinates: d.coordinates
     },
     properties: {

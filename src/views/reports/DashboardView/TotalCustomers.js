@@ -1,6 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
+import calculations from './Calculations';
+import commaNumber from 'comma-number';
 import {
   Avatar,
   Box,
@@ -32,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+const summary = calculations();
 const TotalCustomers = ({ className, ...rest }) => {
   const classes = useStyles();
 
@@ -52,13 +55,13 @@ const TotalCustomers = ({ className, ...rest }) => {
               gutterBottom
               variant="h6"
             >
-              PROBABLE CASES
+              NEGATIVE CASES
             </Typography>
             <Typography
               color="textPrimary"
               variant="h3"
             >
-              1,600
+              {commaNumber(summary.negative)} 
             </Typography>
           </Grid>
           <Grid item>

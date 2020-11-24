@@ -1,6 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
+import calculations from './Calculations'
+import commaNumber from 'comma-number';
 import {
   Avatar,
   Box,
@@ -13,6 +15,8 @@ import {
 } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
+
+const summary = calculations();
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,13 +56,13 @@ const Budget = ({ className, ...rest }) => {
               gutterBottom
               variant="h6"
             >
-              POSITIVE CASES
+              RECOVERED
             </Typography>
             <Typography
               color="textPrimary"
               variant="h3"
             >
-              $24,000
+              {commaNumber(summary.recovered)} 
             </Typography>
           </Grid>
           <Grid item>
