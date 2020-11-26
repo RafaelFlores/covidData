@@ -19,6 +19,7 @@ import {
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
+const imagesFolder = '../../../../public/static/images';
 const data = [
   {
     id: uuid(),
