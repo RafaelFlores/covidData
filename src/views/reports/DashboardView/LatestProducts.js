@@ -18,6 +18,7 @@ import {
 } from '@material-ui/core';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
+import logo1 from '../../../images/products/news_1.png'
 
 const imagesFolder = '../../../../public/static/images';
 const data = [
@@ -25,35 +26,35 @@ const data = [
     id: uuid(),
     name: 'Covid Graph',
     link: 'https://covidgraph.com/',
-    imageUrl: '/static/images/products/news_1.png',
+    imageUrl: require('../../../images/products/news_1.png'),
     updatedAt: moment().subtract(2, 'hours')
   },
   {
     id: uuid(),
     name: 'Data USA',
     link: 'https://datausa.io/coronavirus',
-    imageUrl: '/static/images/products/news_2.png',
+    imageUrl: require('../../../images/products/news_2.png'),
     updatedAt: moment().subtract(2, 'hours')
   },
   {
     id: uuid(),
     name: 'Bloomberg',
     link: 'https://www.bloomberg.com/graphics/2020-united-states-coronavirus-outbreak/',
-    imageUrl: '/static/images/products/news_3.png',
+    imageUrl: require('../../../images/products/news_3.png'),
     updatedAt: moment().subtract(3, 'hours')
   },
   {
     id: uuid(),
     name: 'NPR',
     link: 'https://www.npr.org/sections/health-shots/2020/09/01/816707182/map-tracking-the-spread-of-the-coronavirus-in-the-u-s',
-    imageUrl: '/static/images/products/news_4.png',
+    imageUrl: require('../../../images/products/news_4.png'),
     updatedAt: moment().subtract(5, 'hours')
   },
   {
     id: uuid(),
     name: 'Covid Graphics',
     link: 'https://covid.graphics/',
-    imageUrl: '/static/images/products/news_5.png',
+    imageUrl: require('../../../images/products/news_5.png'),
     updatedAt: moment().subtract(9, 'hours')
   }
 ];
