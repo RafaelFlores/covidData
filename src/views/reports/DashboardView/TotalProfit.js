@@ -50,7 +50,7 @@ const TotalProfit = ({ className, ...rest }) => {
               gutterBottom
               variant="h6"
             >
-              CONFIRMED DEATH
+              CONFIRMED CASUALTIES
             </Typography>
             <Typography
               color="textPrimary"
