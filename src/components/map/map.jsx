@@ -80,7 +80,7 @@ export function Map() {
               e.features[0].properties.positive
             }</div> </div> <div class="divTableRow"> <div class="divTableCell">Recovered</div> <div class="divTableCell">${
               e.features[0].properties.recovered
-            }</div> </div> <div class="divTableRow"> <div class="divTableCell">Dead</div> <div class="divTableCell">${
+            }</div> </div> <div class="divTableRow"> <div class="divTableCell">Deaths</div> <div class="divTableCell">${
               e.features[0].properties.death
             }</div> </div> </div> </div>`;
             // Ensure that if the map is zoomed out such that multiple

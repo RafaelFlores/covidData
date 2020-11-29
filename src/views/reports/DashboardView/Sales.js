@@ -110,7 +110,7 @@ const Sales = ({ className, ...rest }) => {
             Up to October 2020
           </Button>
         )}
-        title="Dead share by ethnicity"
+        title="Casualties share by ethnicity"
       />
       <Divider />
       <CardContent>
