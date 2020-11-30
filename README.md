@@ -9,9 +9,12 @@ It takes the coodinates and draw points in a map with the associated data to be 
 
 The display bar.
 Makes the sum over the values of the Json and Displays it. 
+![Info-image](https://github.com/RafaelFlores/covidData/blob/main/src/images/infoDisplay.png)
+
 
 Comparison by ehtnicity graphic.
 The application renders a bar chart with static inormation displayed when the mouse hover over the columns. 
+![bar-image](https://github.com/RafaelFlores/covidData/blob/main/src/images/barChart.png)
 
 Casualties by age group
 It renders a doughnut chart with porcentages according to the age of each group.
