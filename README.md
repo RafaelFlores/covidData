@@ -5,6 +5,8 @@ The Dashboard has 5 sections.
 
 The map.
 It takes the coodinates and draw points in a map with the associated data to be displayed when the mouse hovers over them.
+Latest News section.
+Provides links to other pages
 ![Map-image](https://github.com/RafaelFlores/covidData/blob/main/src/images/map.png)
 
 The display bar.
@@ -19,8 +21,7 @@ The application renders a bar chart with static inormation displayed when the mo
 Casualties by age group
 It renders a doughnut chart with porcentages according to the age of each group.
 
-Latest News section.
-Provides links to other pages.
+
 
 
 
