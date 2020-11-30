@@ -5,6 +5,7 @@ The Dashboard has 5 sections.
 
 The map.
 It takes the coodinates and draw points in a map with the associated data to be displayed when the mouse hovers over them.
+![Map-image](https://github.com/RafaelFlores/covidData/blob/main/src/images/map.png)
 
 The display bar.
 Makes the sum over the values of the Json and Displays it. 
