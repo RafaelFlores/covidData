@@ -1,4 +1,5 @@
 This application is for demonstration proporses only.
+Live site: https://rafaelflores.github.io/covidData/#/app/dashboard
 
 It consists of a Dashboard that fetches data from a Json file and to diplay it
 The Dashboard has 5 sections.
